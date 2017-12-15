@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-      <div class="back"><i class="icon">返回</i></div>
+      <div class="back iconfont">&#xe624;</div>
       <div class="search"></div>
       <div class="city">城市</div>
     </header>
@@ -18,6 +18,7 @@ export default {
   	display: flex;
   	background: #05bad5;
   	color: #fff;
+    text-align: center;
   }
   .back{
   	width: .64rem;
