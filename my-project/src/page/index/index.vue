@@ -33,6 +33,9 @@ export default {
   .city {
     width: 1.14rem;
     line-height: .86rem;
-    text-align: center;
+    text-align: left;
+  }
+  .city:after {
+    content: "";
   }
 </style>
