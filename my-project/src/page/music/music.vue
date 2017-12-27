@@ -7,7 +7,7 @@
 					<p>Dell's Music</p>
 				</div>
 				<ul class="nav">
-					<li v-for="(item, index) in 4" :key="index"><router-link to="/" tag="span">{{category}}</router-link></li>
+					<li v-for="(item, index) in 4" :key="index"><router-link to="/scroller/中国" tag="span">{{category}}</router-link></li>
 				</ul>
 			</header>
 
@@ -53,7 +53,7 @@ export default {
           autoplay: 3000
         },
         'slider': [],
-        'list': [
+        'list': []
       }
     },
     methods: {
